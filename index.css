@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    font-family: 'Roboto Mono';
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header img {
+    border-radius: 100%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+header h1 {
+    font-family: 'Chelsea Market';
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    width: 7%;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 3%;
+    margin: 2rem auto;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.parkGuide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.parkGuide :last-child {
+    text-align: center;
+    width: 40%;
+    margin-left: 16.5rem;
+}
+
+.planVisit {
+    background-color: #FF764E;
+}
+
+.aboutPark {
+    background-color: #5ED3EB;
+}
+
+.getInvolved {
+    background-color: #FFCD69;
+}
+
+.section-zero {
+    display: flex;
+}
+
+.section-one {
+    margin-top: 2rem;
+    background-color: #DDB9A3;
+    color: white;
+    padding: 0.5rem 5rem;
+    font-size: 1.2rem;
+}
+
+.section-two {
+    margin-top: 2rem;
+    padding: 0.5rem 5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 31.5rem;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+}
+
+.section-two img {
+    width: 10rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer img {
+    width: 100%;
+}
